@@ -9,7 +9,8 @@ import threading
 import webbrowser
 
 if __name__ == '__main__':
-  app.run(debug=True)
+  app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 5000)), debug=True)
+  #app.run(debug=True)
    #port = 5000 
    #url = "http://127.0.0.1:%s/".format(port)
    #app.run(port=port, debug=False)
