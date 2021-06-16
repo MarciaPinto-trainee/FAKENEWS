@@ -9,3 +9,8 @@ MarkupSafe==1.1.1
 pycodestyle==2.6.0
 pytz==2020.1
 requests==2.24.0
+Flask_RESTful==0.2.12
+itsdangerous==0.24
+passlib==1.6.5
+requests==2.11.1
+stripe==1.27.1
